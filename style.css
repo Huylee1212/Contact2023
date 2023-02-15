@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+.avt {
+    display: flex;
+    justify-content: center;
+    /* căn ở giữa trình duyệt */
+    align-items: center;
+    margin-top: 30px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.tt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* căn ở giữa trình duyệt */
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.btn {
+    width: 200px;
+    margin-top: 15px;
+    padding: 10px 30px 10px 30px;
+    border: 1px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
